@@ -1,0 +1,18 @@
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+@import '../scss/variables.scss';
+
+.btn,
+.alert,
+.card,
+.form-control {
+    border-radius: 10 !important;
+}
+
+.btn-primary {
+    background-color: $featured;
+    border-color: $feature-dark;
+    &:hover {
+        background-color: $feature-dark;
+    }
+}
